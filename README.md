@@ -5,7 +5,8 @@ Teaching "R for cell biologists", not teaching R _to_ cell biologists!
 --
 
 Materials for teaching "R for cell biologists": a 90 minute workshop to introduce R in a way that cell biologists would actually use it.
-For more information read [this]().
+For more information read [this](https://quantixed.org/2025/01/20/get-better-r-for-cell-biologists/).
+
 This repo is intended for instructors or for self-directed students to generate materials for the workshop.
 
 ## Setup
@@ -23,7 +24,8 @@ You can, skip straight from step 1 to using the zip file of example data, `Data.
 Assuming all participants bring their own laptops, let them know that they meed to download and install R and RStudio ahead of the workshop.
 Any installation of packages can be done during the session.
 
-The files you generated above need to made available to the participants. Suggestion: make a compressed archive (zip) and send to the students prior to or during the workshop.
+The files you generated above need to be made available to the participants.
+Suggestion: make a compressed archive (zip) and send to the students prior to or during the workshop.
 They will also need the scripts `00_r_project_setup.R` and `02_training.R`, so distribute these at the same time.
 
 # The Workshop
@@ -49,7 +51,8 @@ We need to:
 2. Do some calculations or processing (optional)
 3. Make some plots
 
-See [here]() for more details.
+See [here](https://quantixed.org/2025/01/20/get-better-r-for-cell-biologists/) for more details.
+
 Depending on the experience of the group, other concepts may need introducing: RStudio as an IDE (what the different panes are for), R as a language, scripting, 1-based vs 0-based languages.
 
 ## The hands-on part
@@ -78,9 +81,6 @@ Check for understanding throughout.
 - Use the filename to append information as it is read in.
 
 **Key concept:** think about how you'll name the outputs of your analysis in Fiji to make reading the data into R as easy as possible.
-
-An alternative workflow that we use in the lab is to use nested folders for conditions and experimental repeats, rather than a flat structure as in this example.
-In that case, folder names are used to append information to the data frame.
 
 ### 2. Do some calculations
 
